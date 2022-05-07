@@ -1,0 +1,9 @@
+def swap():
+    a = int(input("enter number one"))
+    b = int(input("enter number two"))
+    c = a
+    a = b
+    b = c
+    print("swappped number one is", a)
+    print("swapped  number two is", b)
+swap()
