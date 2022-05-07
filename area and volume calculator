@@ -1,0 +1,56 @@
+def areaofcircle():
+    r = int(input("enter the radius"))
+    a = 3.14*r*r
+    print(a)
+areaofcircle()
+def areaofsquare():
+    r = int(input("enter the side"))
+    a = r**2
+    print(a)
+areaofsquare()
+def areaoftriangle():
+    b = int(input("enter the base of the triangle"))
+    h = int(input("enter the height of the triangle"))
+    a = 0.5*b*h
+    print(a)
+areaoftriangle()
+def areaofrectangle():
+    l = int(input("enter length of the rectangle"))
+    b = int(input("enter breadth of the rectangle"))
+    a = l*b
+    print(a)
+areaofrectangle()
+def areaofcylinder():
+    r = int(input("enter radius of the cylinder"))
+    h = int(input("enter the height of the cylinder"))
+    a = ((2*3.14*r*h)+(2*3.14*r*r))
+    print(a)
+areaofcylinder()
+def areaofcubeandcuboid():
+    r = int(input("enter the side of the cube"))
+    a = 6*r*r
+    print(a)
+    l, b, h = int(input("enter length,breadth and height of the cuboid"))
+    ar = 2*(l*b)+2*(b*h)+2*(l*h)
+    print(ar)
+areaofcubeandcuboid()
+def volumeofcylinder():
+    h, r = int(input("enter height and radius of the cylinder"))
+    v = 2*3.14*r*h
+    print(v)
+volumeofcylinder()
+def volumeoftriangle():
+    b, h, a = int(input("enter base height and altitude of triangular prism"))
+    v= 0.5*b*h*a
+    print(v)
+volumeoftriangle()
+def volumeofrectangle():
+    l, b, h = int(input("enter length breadth and height of the rectangle"))
+    v = l*b*h
+    print(v)
+volumeofrectangle()
+def volumeofsquare():
+    r = int(input("enter the side of the square"))
+    v = r*r*r
+    print(v)
+volumeofsquare()
