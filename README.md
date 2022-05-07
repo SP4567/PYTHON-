@@ -1,2 +1,17 @@
-# PYTHON-
-BASIC PYTHON PROGRAMS
+class Nums:
+    n = int(input("enter a number"))
+    t = n
+    s = 0
+    p = 1
+    while t > 0:
+        d = t % 10
+        s = s + d
+        p = p * d
+        t = t // 10
+    if s == p:
+        print("ohh nice!!the number is spy")
+    else:
+        print("damm it!!the number is not spy")
+
+
+
