@@ -1,0 +1,12 @@
+n = int(input("enter a number"))
+sq = n*n
+digit = int()
+s = 0
+while sq != 0:
+    digit = sq % 10
+    s = s+digit
+    sq = sq // 10
+if s == n:
+    print("the number is neon")
+else:
+    print("the number is not neon")
