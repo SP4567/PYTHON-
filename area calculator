@@ -1,0 +1,22 @@
+def areaofcircle():
+    r = int(input("enter the radius"))
+    a = 3.14*r*r
+    print(a)
+areaofcircle()
+def areaofsquare():
+    r = int(input("enter the side"))
+    a = r**2
+    print(a)
+areaofsquare()
+def areaoftriangle():
+    b = int(input("enter the base of the triangle"))
+    h = int(input("enter the height of the triangle"))
+    a = 0.5*b*h
+    print(a)
+areaoftriangle()
+def areaofrectangle():
+    l = int(input("enter length of the rectangle"))
+    b = int(input("enter breadth of the rectangle"))
+    a = l*b
+    print(a)
+areaofrectangle()
